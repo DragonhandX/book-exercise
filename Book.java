@@ -49,4 +49,9 @@ class Book
     {
         System.out.println(title);
     }
+    
+    public void printDetails()
+    {
+        System.out.println("Title:\t" + title + "\nAuthor:\t" + author + "\nPages:\t" + pages);
+    }
 }
